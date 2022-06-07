@@ -101,6 +101,10 @@ tencent:
   SignName: 467382
   TemplateId: 1429791
 
+#虹软api配置
+arcsoft:
+  appId: BDy5P6Ht2MGXQF9w4DYc2dsrs79Kiip3ciEA4TfQ3pKS
+  sdkKey: DizAFj6cQfcFKCz7fqDmjSuHYtVuT4MmeX6MbLSYqisr
 
 
 
