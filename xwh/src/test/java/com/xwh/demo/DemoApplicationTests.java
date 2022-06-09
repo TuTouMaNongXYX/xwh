@@ -16,8 +16,8 @@ class DemoApplicationTests {
 
     @Test
     void contextLoads() {
-        File file1 = new File("C:\\Users\\lenovo\\Desktop\\psc.png");
-        File file2 = new File("C:\\Users\\lenovo\\Desktop\\psc3.png");
+        File file1 = new File("C:\\Users\\lenovo\\Desktop\\aaf2264cbd0d246da0c01d3dd3f2957.jpg");
+        File file2 = new File("C:\\Users\\lenovo\\Desktop\\aaf2264cbd0d246da0c01d3dd3f2957.jpg");
         faceEngineMain.faceRecognition(file1,file2);
     }
 
