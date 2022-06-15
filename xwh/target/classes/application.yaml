@@ -5,7 +5,7 @@ spring:
   datasource:
     druid-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/model?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
-    username: root
+    username: 1234
     password: 1234
   mvc:
     #打开隐藏Http请求方式过滤器
@@ -28,6 +28,12 @@ spring:
     password: spjrmjfkakrycifj
     host: smtp.qq.com
     default-encoding: utf-8
+  #redis
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    password:
 
 #mybaits日志开启
 mybatis:
@@ -79,8 +85,9 @@ knife4j:
   production: false
   basic:
     enable: true
-    username: xyx
-    password: 123456
+    username: 输入接口文档的账号
+    password: 密码
+
 
 
 
@@ -89,22 +96,22 @@ knife4j:
 
 #查询快递第三方api配置
 logistics:
-  host: https://kdwlcxf.market.alicloudapi.com
-  path: /kdwlcx
-  appcode: c405940a427646b58c4dbeeb0ae946b0
+  host:
+  path:
+  appcode:
 
 #腾讯云配置
 tencent:
-  secretId: AKIDIPKDyWv993kCyWorgGoCQRDl8IDuRcZ2
-  secretKey: Kjy2sBG8wZ1FOqa9sgKiwxzmMhqlSExS
-  SmsSdkAppId: 1400689865
-  SignName: 467382
-  TemplateId: 1429791
+  secretId:
+  secretKey:
+  SmsSdkAppId:
+  SignName:
+  TemplateId:
 
 #虹软api配置
 arcsoft:
-  appId: BDy5P6Ht2MGXQF9w4DYc2dsrs79Kiip3ciEA4TfQ3pKS
-  sdkKey: DizAFj6cQfcFKCz7fqDmjSuHYtVuT4MmeX6MbLSYqisr
+  appId:
+  sdkKey:
 
 
 
