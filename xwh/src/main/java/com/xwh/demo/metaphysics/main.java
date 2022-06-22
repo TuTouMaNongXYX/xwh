@@ -19,7 +19,7 @@ public class main {
     static String path = "/ai_metaphysics/guan_yin_lin_qian/elite";
     static String method = "GET";
     //阿里云APPCODE
-    static String appcode = "7cbc1500dfd34d91bc1728aa9ef29785";
+    static String appcode = "";
 
     public static void fortuneTelling(String timeOfBirth, String familyName, String lastName, String sex) {
         Map<String, String> headers = new HashMap<String, String>();
