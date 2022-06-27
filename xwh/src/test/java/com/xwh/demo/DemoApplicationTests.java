@@ -1,14 +1,11 @@
 package com.xwh.demo;
 
 import com.xwh.demo.arcsoft.FaceEngineMain;
-import com.xwh.demo.cloud.alibaba.identityCardVerification.verification;
-import com.xwh.demo.cloud.tencent.shortMessage;
-import com.xwh.demo.metaphysics.main;
+import com.xwh.demo.cloud.alibaba.metaphysics.main;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.io.File;
 import java.io.IOException;
 
 @SpringBootTest

@@ -1,4 +1,4 @@
-package com.xwh.demo.metaphysics;
+package com.xwh.demo.cloud.alibaba.metaphysics;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.util.EntityUtils;

@@ -1,4 +1,4 @@
-package com.xwh.demo.logistics;
+package com.xwh.demo.cloud.alibaba.logistics;
 
 import cn.dev33.satoken.util.SaFoxUtil;
 import com.alibaba.fastjson.JSON;

@@ -1,4 +1,4 @@
-package com.xwh.demo.metaphysics;
+package com.xwh.demo.cloud.alibaba.metaphysics;
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;
 import java.security.KeyManagementException;

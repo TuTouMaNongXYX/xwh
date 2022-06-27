@@ -1,0 +1,31 @@
+annotation - 注解
+    -NoAuto -去除日志注解
+    -NoRepeatSubmit -禁止重复提交注解
+
+aop -aop切面
+    -LogsAop -日志切面
+    -NoRepeatSubmitAop -禁止重复提交切面
+
+arcsoft -虹软
+    -FaceEngineMain -人脸识别
+
+cloud -云
+    -alibaba -阿里巴巴
+        -identityCardVerification -身份证验证
+        -logistics -快递查询
+        -main -命理玄学知识图谱-观音灵签 奇奇怪怪的玄学
+    -tencent -腾讯
+        -shortMessage -腾讯云短信
+
+Exception -异常
+    -MyException -自定义异常
+
+mail -邮件
+    -MailUtil 邮件工具类
+
+
+
+
+
+
+
